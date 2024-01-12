@@ -1,0 +1,62 @@
+
+.dashboard_contents{
+    display: flex;
+    gap:40px;
+}
+
+.listAdd-and_list{
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+    width:60%;
+}
+.add-listinfo{
+    align-self:flex-start;
+}
+.add-listinfo div{
+    border-radius: 18px;
+    background-color: rgb(155, 155, 248);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:110px;
+    padding: 8px 25px;
+    font-size: 1rem;
+    color:white;
+    font-size:0.9rem
+    
+}
+.search-item{
+    display:flex;
+    justify-content:flex-end
+}
+
+.search-item span input{
+width:47px;
+padding:0px 10px;
+margin-left:2px;
+}
+.search-item h2{
+    border-radius: 16px;
+    padding: 5px 18px;
+    font-size:0.7rem;
+}
+.items-list{
+    border:1px solid rgb(158, 157, 157);
+    border-radius:8px ;
+    box-shadow:-6px 6px 13px rgb(190, 190, 190);
+    padding:15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    overflow-y:auto;
+    height:320px;
+    width:840px
+}
+.items-listtable td{
+    padding:15px 0;
+}
+.items-listtable th{
+    padding:5px 0 15px 0;
+    border-bottom: 1px solid grey;
+}

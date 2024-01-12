@@ -1,0 +1,102 @@
+.nav-bar{
+    height:50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right:40px;
+}
+.dashboard{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+}
+.dashboard_contents{
+    display:flex;
+    align-items: flex-start;
+    gap:0px;
+}
+.dashboard-main{
+    display: grid;
+    grid-template-columns: 530px 530px;
+    grid-template-rows:300px 300px;
+}
+.dashboard-main img{
+    width:525px;
+    height:260px
+}
+
+
+/*dashboards right section*/
+.dashboard_rightSection{
+    width:480px;
+    display: grid;
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 120px 120px;
+}
+.dashboard_rightSection div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:4px 15px 0 15px ;
+    height:100px;
+    border-radius: 8px;
+    text-decoration:none;
+    color:black;
+}
+.dashboard_rightSection div h3,.dashboard_rightSection-vehicleStatus h3{
+    font-size:0.9rem
+}
+.idle_vehicles{
+    background-color: rgba(179, 178, 252, 0.582);
+    width:180px;
+}
+.OverSpeedReport{
+    background-color: rgba(253, 253, 202, 0.747);
+    width:180px;
+}
+.GoteraWarehouse{
+grid-column-start: 1;
+grid-column-start: 2;
+grid-row-start: 1;
+grid-row-start: 2;
+background-color: rgba(248, 204, 212, 0.808);
+width:240px;
+margin-left: -140px;
+}
+
+.dashboard_rightSection-vehicleStatus{
+background-color: rgba(165, 163, 252, 0.712);
+width:200px;
+height:190px;
+display: flex;
+flex-direction:column;
+gap:7px;
+padding:4px 15px 0 15px ;
+border-radius: 8px;
+
+}
+.dashboard_rightSection-vehicleStatus ul{
+    display: flex;
+flex-direction:column;
+gap:15px;
+}
+.dashboard_rightSection-vehicleStatus ul li{
+    display: flex;
+    
+}
+.dashboard_rightSection-vehicleStatus ul li::before{
+    content:"\2022";
+    color:green;
+    font-weight: bold;
+    display: inline-block;
+    width:2em;
+    margin-left: -2em;
+
+}
+.dashboard_rightSection-vehicleStatus ul li span{
+    margin-left: 30px;
+    padding: 3px 7px;
+    border-radius: 100%;
+    font-size:0.7rem
+}
