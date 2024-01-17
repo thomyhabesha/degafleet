@@ -6,6 +6,7 @@ import GoterawarehouseVehicles from './pages/goteraWarehouse/Goterwarehouse';
 import Overspeedreport from './pages/overspeedreport/Overspeedreport';
 import Dolphin from './pages/dolphin/Dolphin';
 import Drivers from './pages/drivers/Drivers';
+import Login from './pages/login/Login';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/drivers" element={<Drivers/>} />
         <Route path="/goterawarehouseVehicles" element={<GoterawarehouseVehicles/>} />
         <Route path="/overspeedreport" element={<Overspeedreport/>} />
+        <Route path="/login" element={<Login/>} />
       </Routes>
       </HashRouter>
       

@@ -1,9 +1,14 @@
 .nav-bar{
-    height:50px;
+    height:61px;
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
     align-items: center;
     margin-right:40px;
+    padding: 5px 40px;
+}
+.nav-bar img{
+    width:140px;
+    height:60px;
 }
 .dashboard{
     height: 100vh;
@@ -15,23 +20,28 @@
     display:flex;
     align-items: flex-start;
     gap:0px;
+    padding:0 10px;
 }
 .dashboard-main{
     display: grid;
-    grid-template-columns: 530px 530px;
-    grid-template-rows:300px 300px;
+    grid-template-columns: 500px 500px;
+    grid-template-rows:340px 340px;
 }
 .dashboard-main img{
-    width:525px;
-    height:260px
+    width:500px;
+    height:240px
 }
 
-
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
 /*dashboards right section*/
 .dashboard_rightSection{
     width:480px;
     display: grid;
-    grid-template-columns: 240px 240px;
+    height: 430px;
+    grid-template-columns: 210px 210px;
     grid-template-rows: 120px 120px;
 }
 .dashboard_rightSection div{
@@ -44,59 +54,205 @@
     text-decoration:none;
     color:black;
 }
+.dashboard_rightSection div:hover{
+    cursor: pointer;
+    
+    box-shadow: -8px 8px 18px rgb(180, 179, 179);
+    transition: 0.6s;
+
+}
+
 .dashboard_rightSection div h3,.dashboard_rightSection-vehicleStatus h3{
-    font-size:0.9rem
+    font-size:0.9rem;
+}
+.dashboard_rightSection div h3 a,.dashboard_rightSection-vehicleStatus h3 a{
+    color: black;
+   text-decoration: none;
 }
 .idle_vehicles{
     background-color: rgba(179, 178, 252, 0.582);
-    width:180px;
+    width:145px;
 }
 .OverSpeedReport{
-    background-color: rgba(253, 253, 202, 0.747);
-    width:180px;
+    background-color: rgba(254, 254, 194, 0.747);
+    width:145px;
 }
 .GoteraWarehouse{
 grid-column-start: 1;
 grid-column-start: 2;
 grid-row-start: 1;
 grid-row-start: 2;
-background-color: rgba(248, 204, 212, 0.808);
-width:240px;
-margin-left: -140px;
+background-color: rgba(249, 162, 178, 0.808);
+width:145px;
 }
-
+ 
 .dashboard_rightSection-vehicleStatus{
-background-color: rgba(165, 163, 252, 0.712);
-width:200px;
-height:190px;
+background-color: rgba(253, 170, 153, 0.712);
+width:145px;
+height:155px;
 display: flex;
 flex-direction:column;
-gap:7px;
+gap: 10px;
 padding:4px 15px 0 15px ;
 border-radius: 8px;
+font-size: 0.9rem;
 
 }
-.dashboard_rightSection-vehicleStatus ul{
+.dashboard_rightSection-vehicleStatus li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+/* .dashboard_rightSection-vehicleStatus{
     display: flex;
 flex-direction:column;
 gap:15px;
-}
-.dashboard_rightSection-vehicleStatus ul li{
+height: 340px;
+background-color: aqua;
+} */
+.dashboard_rightSection-vehicleStatus li{
     display: flex;
     
 }
-.dashboard_rightSection-vehicleStatus ul li::before{
-    content:"\2022";
-    color:green;
-    font-weight: bold;
-    display: inline-block;
-    width:2em;
-    margin-left: -2em;
 
-}
-.dashboard_rightSection-vehicleStatus ul li span{
+.dashboard_rightSection-vehicleStatus li span{
     margin-left: 30px;
     padding: 3px 7px;
     border-radius: 100%;
     font-size:0.7rem
+}
+@media screen and (max-width:438px){
+
+    .dashboard{
+        height: 150vh;
+        width:100vw; 
+        
+    }
+    .OverSpeedReport{
+        background-color: rgba(250, 250, 149, 0.747);
+    }
+    .dashboard_contents{
+        display:flex;
+        flex-direction: column;
+        gap:0px;
+        padding:0 10px;
+        height: 100%;
+    }
+    .fuel-calc{
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .dashboard-main{
+        display: grid;
+        grid-template-columns: 40px;
+        grid-template-rows:315px 315px 315px 315px ;
+    }
+    .dashboard-main img{
+        width:350px;
+        height:260px;
+        margin-left: 15px;
+    }
+    
+.dashboard_rightSection-vehicleStatus,
+.dashboard_rightSection div h3, .dashboard_rightSection-vehicleStatus h3{
+font-size: 0.8rem;
+}
+        .dashboard_rightSection{
+            width:480px;
+            display: grid;
+            grid-template-columns: 180px 180px;
+            grid-template-rows: 120px 120px;
+        }
+
+        
+.idle_vehicles{
+    width:125px;
+}
+.OverSpeedReport{
+   width:125px;
+}
+.GoteraWarehouse{
+
+width:125px;
+}
+ 
+.dashboard_rightSection-vehicleStatus{
+    width:125px;
+    font-size: 0.7rem;
+
+}
+        
+}
+
+
+@media screen and (max-width:362px){
+
+    .fuel-calc{
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .dashboard-main{
+        display: grid;
+        grid-template-columns: 30px;
+        grid-template-rows:300px 300px 300px 300px ;
+    }
+    .dashboard-main div h3{
+        font-size: 0.7rem;
+
+    }
+    .dashboard-main div p{
+        font-size: 0.8rem;
+
+    }
+    .dashboard-main img{
+        width:320px;
+        height:240px;
+        margin-left: 10px;
+    }
+    .dashboard_rightSection{
+        width:480px;
+        display: grid;
+        grid-template-columns: 175px 175px;
+        grid-template-rows: 120px 120px;
+    }
+    .dashboard_rightSection div:nth-child(1),.dashboard_rightSection div:nth-child(2){
+        width:120px;
+    }
+   
+}
+
+
+@media screen and (max-width:320px){
+
+    .dashboard-main img{
+        width:290px;
+        height:240px;
+        margin-left: 5px;
+    }
+    .dashboard_rightSection{
+        width:480px;
+        display: grid;
+        grid-template-columns: 165px 165px;
+        grid-template-rows: 120px 120px;
+    }
+    .dashboard_rightSection div:nth-child(1),.dashboard_rightSection div:nth-child(2){
+        width:100px;
+    }
+    .idle_vehicles{
+        width:90px;
+    }
+    .OverSpeedReport{
+       width:90px;
+    }
+    .GoteraWarehouse{
+    
+    width:90px;
+    }
+     
+    .dashboard_rightSection-vehicleStatus{
+        width:125px;
+        font-size: 0.6rem;
+    
+    }
+    
 }

@@ -23,16 +23,16 @@
     padding: 8px 25px;
     font-size: 1rem;
     color:white;
-    font-size:0.9rem
-    
+    font-size:0.9rem;
 }
 .search-item{
     display:flex;
-    justify-content:flex-end
+    justify-content:flex-end;
+   
 }
 
 .search-item span input{
-width:47px;
+width:75px;
 padding:0px 10px;
 margin-left:2px;
 }
@@ -48,10 +48,11 @@ margin-left:2px;
     padding:15px 20px;
     display: flex;
     flex-direction: column;
+    
     gap:30px;
     overflow-y:auto;
     height:320px;
-    width:840px
+    width:840px;
 }
 .items-listtable td{
     padding:15px 0;
@@ -59,4 +60,40 @@ margin-left:2px;
 .items-listtable th{
     padding:5px 0 15px 0;
     border-bottom: 1px solid grey;
+}
+
+
+
+@media screen and (max-width:438px){
+    .items-list{
+        overflow-y:auto;
+        overflow-x:auto;
+        width:290px;
+    }
+    .items-list{
+        padding: 0 36px;
+    }
+    .dashboard{
+        height: 100vh;
+    }
+    
+    .items-listtable td{
+        padding:15px 20px;
+    }
+}
+
+
+@media screen and (max-width:378px){
+    .items-list{
+        overflow-y:auto;
+        overflow-x:auto;
+        width:250px;
+    }
+}
+@media screen and (max-width:328px){
+    .items-list{
+        overflow-y:auto;
+        overflow-x:auto;
+        width:210px;
+    }
 }
