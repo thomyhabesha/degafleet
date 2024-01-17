@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/degafleet/static/css/main.d073eea7.css",
-    "main.js": "/degafleet/static/js/main.94ef88b3.js",
+    "main.css": "/degafleet/static/css/main.32709822.css",
+    "main.js": "/degafleet/static/js/main.84bd24e7.js",
     "static/js/787.324d0879.chunk.js": "/degafleet/static/js/787.324d0879.chunk.js",
     "static/media/Dega-Water-Logo-removebg-preview.png": "/degafleet/static/media/Dega-Water-Logo-removebg-preview.346653ae3204e03576eb.png",
     "static/media/costimg.png": "/degafleet/static/media/costimg.de842623d71e03d6f65e.png",
     "static/media/fuelimg.png": "/degafleet/static/media/fuelimg.fd021d00f1ea81cc2545.png",
     "index.html": "/degafleet/index.html",
-    "main.d073eea7.css.map": "/degafleet/static/css/main.d073eea7.css.map",
-    "main.94ef88b3.js.map": "/degafleet/static/js/main.94ef88b3.js.map",
+    "main.32709822.css.map": "/degafleet/static/css/main.32709822.css.map",
+    "main.84bd24e7.js.map": "/degafleet/static/js/main.84bd24e7.js.map",
     "787.324d0879.chunk.js.map": "/degafleet/static/js/787.324d0879.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d073eea7.css",
-    "static/js/main.94ef88b3.js"
+    "static/css/main.32709822.css",
+    "static/js/main.84bd24e7.js"
   ]
 }
