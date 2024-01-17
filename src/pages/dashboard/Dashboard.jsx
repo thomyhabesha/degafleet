@@ -16,7 +16,7 @@ function Dashboard() {
     <div className='dashboard '>
       <div className="nav-bar">
         <img src={degaLogo}/>
-        <Link to="/login"><FaRegUserCircle size={30}/></Link>
+        <Link to=""><FaRegUserCircle size={30}/></Link>
       </div>
 <div className="dashboard_contents">
 

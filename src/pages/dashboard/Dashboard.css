@@ -10,22 +10,26 @@
     width:140px;
     height:60px;
 }
+
 .dashboard{
     height: 100vh;
     display: flex;
     flex-direction: column;
     width:100vw;
 }
+
 .dashboard_contents{
     display:flex;
     align-items: flex-start;
     gap:0px;
     padding:0 10px;
 }
+
+
 .dashboard-main{
     display: grid;
     grid-template-columns: 500px 500px;
-    grid-template-rows:340px 340px;
+    grid-template-rows:300px 300px;
 }
 .dashboard-main img{
     width:500px;
