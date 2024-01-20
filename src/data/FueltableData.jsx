@@ -1,0 +1,122 @@
+export default[
+    {
+    Dateofrefuel:"Dec 12, 2023",
+    PolateNo:"77609",
+    StartMileage:"217485",
+    EndmilAge:"217694",
+    MilageCovered:"209",
+    PriceLitter:"79.75",
+    RefueledAmount:"33.23",
+    ActualKmpl:"6.29",
+    MinimumStand:"5",
+    AmountBirr:"2650"
+    },
+    {
+    Dateofrefuel:"Dec 22, 2023",
+    PolateNo:"77618",
+    StartMileage:"1997734",
+    EndmilAge:"199891",
+    MilageCovered:"157",
+    PriceLitter:"31.31",
+    RefueledAmount:"5.1",
+    ActualKmpl:"5.1",
+    MinimumStand:"5",
+    AmountBirr:"2497"
+    },
+    {
+    Dateofrefuel:"Sep 02, 2022",
+    PolateNo:"77643",
+    StartMileage:"210059",
+    EndmilAge:"210293",
+    MilageCovered:"234",
+    PriceLitter:"",
+    RefueledAmount:"31.84",
+    ActualKmpl:"7.34",
+    MinimumStand:"5",
+    AmountBirr:"2540"
+    },
+    {
+    Dateofrefuel:"oct 08, 2023",
+    PolateNo:"77643",
+    StartMileage:"210293 ",
+    EndmilAge:"210642",
+    MilageCovered:"349",
+    PriceLitter:"",
+    RefueledAmount:"8.21",
+    ActualKmpl:"6.29",
+    MinimumStand:"5",
+    AmountBirr:"3381"
+    },
+    {
+    Dateofrefuel:"Dec 23, 2023",
+    PolateNo:"77618",
+    StartMileage:"19981",
+    EndmilAge:"200253",
+    MilageCovered:"362",
+    PriceLitter:"",
+    RefueledAmount:"50.16",
+    ActualKmpl:"7.19",
+    MinimumStand:"5",
+    AmountBirr:"4000"
+    },
+    {
+    Dateofrefuel:"Jan 12, 2023",
+    PolateNo:"77609",
+    StartMileage:"217694",
+    EndmilAge:"218048",
+    MilageCovered:"354",
+    PriceLitter:"",
+    RefueledAmount:"55.30",
+    ActualKmpl:"6.41",
+    MinimumStand:"5",
+    AmountBirr:"4410"
+    },
+    {
+    Dateofrefuel:"Feb 30, 2023",
+    PolateNo:"54344",
+    StartMileage:"216676",
+    EndmilAge:"218048",
+    MilageCovered:"",
+    PriceLitter:"",
+    RefueledAmount:"43.45",
+    ActualKmpl:"",
+    MinimumStand:"5",
+    AmountBirr:"3465"
+    },
+    {
+    Dateofrefuel:"Jan 08, 2023",
+    PolateNo:"77618",
+    StartMileage:"200252",
+    EndmilAge:"200573",
+    MilageCovered:"321",
+    PriceLitter:"",
+    RefueledAmount:"45.45",
+    ActualKmpl:"7.6",
+    MinimumStand:"5",
+    AmountBirr:"3655"
+    },
+    {
+    Dateofrefuel:"Feb 29, 2022",
+    PolateNo:"77643",
+    StartMileage:"210642",
+    EndmilAge:"210922",
+    MilageCovered:"208",
+    PriceLitter:"",
+    RefueledAmount:"35.80",
+    ActualKmpl:"7.8",
+    MinimumStand:"5",
+    AmountBirr:"2855"
+    },
+    {
+    Dateofrefuel:"Mar 06, 2023",
+    PolateNo:"77609",
+    StartMileage:"218048",
+    EndmilAge:"218361",
+    MilageCovered:"313",
+    PriceLitter:"",
+    RefueledAmount:"44.76",
+    ActualKmpl:"6.29",
+    MinimumStand:"5",
+    AmountBirr:"3570"
+    }
+]

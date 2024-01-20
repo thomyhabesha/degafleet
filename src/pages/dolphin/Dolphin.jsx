@@ -8,9 +8,7 @@ import '../Itemlists.css'
 function Dolphin() {
   return (
     <div className='dashboard'>
-         <div className="nav-bar">
-        <FaRegUserCircle size={30}/>
-      </div>
+         
       <div className="dashboard_contents">
      <Sidebar/>
 <div className='listAdd-and_list'>

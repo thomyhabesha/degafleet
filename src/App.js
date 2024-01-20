@@ -7,6 +7,8 @@ import Overspeedreport from './pages/overspeedreport/Overspeedreport';
 import Dolphin from './pages/dolphin/Dolphin';
 import Drivers from './pages/drivers/Drivers';
 import Login from './pages/login/Login';
+import Fuelmng from './pages/fuelmng/fuelmng';
+import Fueltable from './pages/fueltable/Fueltable';
 import './App.css';
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Route path="/goterawarehouseVehicles" element={<GoterawarehouseVehicles/>} />
         <Route path="/overspeedreport" element={<Overspeedreport/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/fuelmng" element={<Fuelmng/>} />
+        <Route path="/fueltable" element={<Fueltable/>} />
       </Routes>
       </HashRouter>
       

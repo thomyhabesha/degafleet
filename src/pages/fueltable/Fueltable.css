@@ -1,0 +1,26 @@
+.fueltablepage{
+    width:70%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.817);
+    font-size: 0.7rem;
+    align-self: center;
+    border-radius: 6px;
+    border: 1px solid black;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 430px;
+
+}
+.fueltablepage h2 span{
+    color:rgb(114, 2, 2);
+}
+
+.fueltablepage table td,.fueltablepage table th{
+    padding: 8px 20px;
+    border-top:1px solid rgb(150, 149, 149) ;
+    border-right:1px solid rgb(150, 149, 149) ;
+    margin-left: 28px;
+}
+.fueltablepage table tr{
+    border: 2px solid black;
+}

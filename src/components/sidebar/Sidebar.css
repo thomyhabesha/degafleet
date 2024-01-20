@@ -4,15 +4,15 @@
 } */
 .nav li{
     list-style: none;
-    width:120px;
+    width:175px;
     border-radius: 17px;
     padding: 4px 10px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     display: flex;
 }
 .nav li span{
     margin-left: 6px;
-    color:rgb(107, 105, 105);
+    color:black;
 
 }
 a{
@@ -21,19 +21,28 @@ a{
 }
 .nav{
  display: flex; 
-    padding: 5px 0;
+   background-color: rgba(152, 150, 245, 0.726);
+    height:100vh;
+    padding: 0;
 }
 .nav li:hover{
-    background-color: rgb(91, 90, 90);
+    background-color: rgb(110, 107, 106);
     
 }
+.nav ul li:first-child img{
+    width:80%;
+    height: 80px;
+}
+
 .nav_toggler div{
     width:3rem;
     height: 0.2rem;
     margin: 0.4rem;
-    background-color: rgb(153, 111, 193);
     transition: 0.4s ease-in;
 }
+.nav ul li:first-child:hover{
+    background-color:transparent;
+    }
 .nav_toggler{
     cursor: pointer;
     display: none;
@@ -45,9 +54,9 @@ flex-direction: column;
     align-items: center;
     gap:15px;
     width: 210px;
-background-color: rgba(165, 163, 252, 0.712);
-     padding: 30px 30px 20px 20px ; 
-    height:70vh;
+
+     padding: 0px 30px 20px 20px ; 
+  height: 88%;
     border-radius: 8px;
 }
 .nav li span:hover{

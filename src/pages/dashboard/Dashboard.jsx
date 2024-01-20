@@ -5,25 +5,25 @@ import './Dashboard.css'
 import costImg from '../../assets/costimg.png'
 import fuelImg from '../../assets/fuelimg.png'
 import {FaRegUserCircle} from 'react-icons/fa'
-import degaLogo from '../../assets/Dega-Water-Logo-removebg-preview.png'
+import { BiAnalyse } from "react-icons/bi";
+import { TbMessageReport } from "react-icons/tb";
 import Sidebar from '../../components/sidebar/Sidebar'
+import dashImg from '../../assets/dashbg1.png'
 function Dashboard() {
 
 
 
 
   return (
-    <div className='dashboard '>
-      <div className="nav-bar">
-        <img src={degaLogo}/>
-        <Link to=""><FaRegUserCircle size={30}/></Link>
-      </div>
-<div className="dashboard_contents">
+    <div className='dashboard' style={{background:`url(${dashImg})`, backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+     
+<div className="dashboard_contents" >
 
 
 <Sidebar/>
       <main className="dashboard-main">
         <div>
+
 <img src={costImg} />
 </div>
 <div className="dashboard_rightSection">
@@ -43,13 +43,24 @@ function Dashboard() {
 <p>2 Vehicles</p>
   </div>
 
+  <div className="alert">
+<h3><Link to="" >Notifications</Link>
+        </h3>
+<p>11 new reports</p>
+  </div>
+
+  <div className="Analysis">
+<h3><Link to="" >Report & Analysis </Link>
+        </h3>
+<p> 5 new reports</p>
+  </div>
 
   
   <ul className="dashboard_rightSection-vehicleStatus">
   <h3>Vehicle status</h3>
-    <li>Active <span style={{backgroundColor:"green"}}>60</span></li>
+    <li>Active <span style={{backgroundColor:"rgb(130, 230, 131)"}}>60</span></li>
     <li>Maintenance <span style={{backgroundColor:"rgba(248, 248, 179, 0.904)"}}>8</span></li>
-    <li>Out of service <span style={{backgroundColor: "red"}}>9</span></li>
+    <li>Out of service <span style={{backgroundColor: "rgba(244, 119, 100, 0.9)"}}>9</span></li>
   </ul>
 
 </div>
